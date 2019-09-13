@@ -1,0 +1,41 @@
+.product {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 200px;
+  background-color: #f8e9a1;
+  flex: 1 0 48%;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.product > div {
+  width: 50%;
+  margin: auto 0;
+  flex: 0 1 auto;
+  height: 100%;
+}
+
+.product-left {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img {
+  flex: 0 0 auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product * {
+  font-size: 20px;
+  color: maroon;
+}
+
+.product button {
+  background-color: #f76c6c;
+  border-radius: 10px;
+}
